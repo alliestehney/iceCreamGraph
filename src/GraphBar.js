@@ -7,8 +7,10 @@ class GraphBar extends Component {
 
 		return (
 			<div className="GraphBar">
-				<div className="label">
-					{this.props.flavor}
+				<div className="allLabels">
+					<div className="label">
+						{this.props.flavor}
+					</div>
 				</div>
 				<div className="value" style={{width: this.props.value * 50} }>
 					{this.props.value}
